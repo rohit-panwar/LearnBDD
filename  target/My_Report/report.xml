@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="1.945">
+    <testcase classname="Uber booking feature" name="Uber Mini Booking Scenario" time="0.423">
+        <system-out><![CDATA[Given User want to select "Mini" car........................................passed
+When User Select Pickup "Home" and Drop "Office"............................passed
+Then Cab is booking for 1000 INR............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uber booking feature" name="Uber Sedan Booking Scenario" time="0.039">
+        <system-out><![CDATA[Given User want to select "Sedan" car.......................................passed
+When User Select Pickup "Hotel" and Drop "Airport"..........................passed
+Then Cab is booking for 1500 INR............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uber booking feature" name="Uber Outstation Booking Scenario" time="0.045">
+        <system-out><![CDATA[Given User want to select "Outstation" car..................................passed
+When User Select Pickup "Pune" and Drop "Mumbai"............................passed
+Then Cab is booking for 4000 INR............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
